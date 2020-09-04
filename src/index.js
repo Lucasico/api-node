@@ -6,7 +6,7 @@ const app = express()
 
 //entender json no body
 app.use(express.json());
-
 require('./controllers/userController')(app)
+
 
 app.listen(3000)
