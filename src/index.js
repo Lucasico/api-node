@@ -1,5 +1,5 @@
 const express = require('express')
-const bodyParser = require('body-parser')
+//const bodyParser = require('body-parser')
 //refatorar pra tirar controller do router
 //const routes = requeri('./routes')
 const app = express()
